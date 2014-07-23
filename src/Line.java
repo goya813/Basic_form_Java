@@ -28,4 +28,8 @@ public class Line {
 		
 		return (str.charAt(index));
 	}
+	public String getString(int n)
+	{
+		return (str.substring(index, index + n));
+	}
 }
