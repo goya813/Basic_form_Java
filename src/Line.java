@@ -1,16 +1,25 @@
 
 public class Line {
-	public String line;
-	public int index;
+	private String str;
+	private int index;
 	
-	public Line(String _line)
+	public Line(String _str)
 	{
-		line  = new String(_line);
+		str  = new String(_str);
 		index = 0;
 	}
 	public Line(Line _line)
 	{
-		line  = new String(_line.line);
+		str   = new String(_line.str);
 		index = _line.index;
+	}
+	
+	public void next()
+	{
+		index++;
+	}
+	public char getChar()
+	{
+		return (str.charAt(index));
 	}
 }
