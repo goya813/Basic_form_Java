@@ -16,10 +16,16 @@ public class Line {
 	
 	public void next()
 	{
-		index++;
+		if (index < str.length()){
+			index++;
+		}
 	}
 	public char getChar()
 	{
+		if (str.length() == index){
+			return ('\0');
+		}
+		
 		return (str.charAt(index));
 	}
 }
