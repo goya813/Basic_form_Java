@@ -31,7 +31,7 @@ public class Parse {
 		reservedWordsTable[20] = new ReservedWord("END", Define.END);
 		reservedWordsTable[21] = new ReservedWord("", Define.UNKNOWN);
 	}
-	public Parse getInstance()
+	public static Parse getInstance()
 	{
 		return (instance);
 	}
