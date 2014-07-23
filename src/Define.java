@@ -1,5 +1,17 @@
 
 public class Define {
+	public static int ON 	= 1;
+	public static int OFF	= 0;
+	
+	public static int OK	= 1;
+	public static int NG	= 0;
+
+	public static int MATCH	= 1;
+	public static int UNMATCH	= 0;
+	
+	public static int SUCCESS	= 1;
+	public static int FAIL		= 0;
+	
 	public static int OVERFLOW  = -1;
 	public static int UNDERFLOW = -2;
 	
